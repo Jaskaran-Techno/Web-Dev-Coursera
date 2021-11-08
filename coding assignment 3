@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Assignment Solution For Module 3</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+	<div id="top"></div>
+
+	<nav class="navbar">
+		<a class="navbar-brand font-weight-bold" href="index.html">FOOD, LLC</a>
+		<button class="navbar-toggler d-block d-sm-block d-md-none" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon">
+				<svg class="bi bi-list" width="1.5em" height="1.5em" viewBox="0 0 16 16" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg">
+					<path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 013 11h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5zm0-4A.5.5 0 013 7h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5zm0-4A.5.5 0 013 3h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5z" clip-rule="evenodd"/>
+				</svg>
+			</span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav .d-block .d-sm-block .d-md-none">
+				<a class="nav-item nav-link text-center" href="#chicken">Chicken</a>
+				<a class="nav-item nav-link text-center" href="#beef">Beef</a>
+				<a class="nav-item nav-link text-center" href="#sushi">Sushi</a>
+			</div>
+		</div>
+	</nav>
+
+	<h1 class="main_head text-center">Our Menu</h1>
+
+	<div id="main_container" class="container-fluid">
+		<div class="row">
+			<div class="content_box col-md-6 col-lg-4 col-sm-12 col-xs-12">
+				<div id="chicken" class="box_head text-center">
+					<h2>Chicken</h2>
+				</div>
+				<p class="box_content">
+					 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum, metus vel laoreet ullamcorper, urna ante malesuada ipsum, ut suscipit urna massa in leo. Sed quis mi bibendum, dapibus lacus at, feugiat urna. Mauris eget augue ut quam pharetra fermentum a at sem. Proin in neque imperdiet, condimentum turpis at, faucibus urna. Aliquam volutpat eleifend mollis. Praesent ac enim rhoncus, ultrices leo et, pellentesque nibh. Quisque orci ipsum, pretium quis diam sit amet, semper imperdiet metus. Ut vel massa vel enim elementum viverra. Cras interdum commodo accumsan.
+
+					Fusce suscipit viverra nisl. Vivamus vel tincidunt risus. In tincidunt, velit quis aliquet eleifend, massa neque tincidunt orci, eu tristique ex velit in odio. Praesent at ornare nunc. Pellentesque condimentum iaculis fringilla. Nullam varius mollis placerat. Ut elementum libero nulla, faucibus suscipit mauris vulputate tristique. Nullam sit amet pellentesque ex, id semper est. Etiam laoreet gravida pulvinar. Aliquam venenatis ipsum vel elementum posuere.
+
+					Praesent porttitor laoreet nunc sit amet aliquam. Nulla vehicula placerat lectus non ultrices. Maecenas dictum sed erat scelerisque vehicula. Praesent egestas sapien quam, ac venenatis justo ultrices sed. Nulla blandit pulvinar rutrum. Vivamus pulvinar orci mi, quis convallis leo ultricies nec. Quisque ligula neque, mattis ac sagittis sit amet, euismod sit amet dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. In velit turpis, tincidunt ut orci eget, vehicula aliquet eros. Donec euismod nunc eu lacus convallis dictum. Nam rutrum leo laoreet urna varius, a eleifend leo molestie. Nulla facilisi.
+
+					Donec sed augue sit amet erat gravida auctor nec pellentesque purus. Sed venenatis nulla sapien, et malesuada velit lacinia id. Vivamus quis est sed odio auctor dignissim. Sed quis enim libero. Suspendisse et ex luctus, blandit dolor nec, facilisis massa. Sed nec vulputate sapien. Nulla mollis enim turpis, vitae posuere tortor tincidunt ornare. Curabitur lobortis felis a magna pellentesque, ut tempor est vestibulum. Curabitur dapibus neque felis, eu scelerisque nunc tristique ac. Aenean eu tortor felis. Praesent laoreet condimentum ante, vitae egestas massa dignissim in. Duis rutrum elementum velit, quis facilisis neque sollicitudin a. Proin et quam sollicitudin justo lacinia sagittis.
+					 Morbi congue ullamcorper nibh vitae maximus. Nunc id tempus nibh. Integer luctus nisl vitae erat dignissim dignissim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas sodales, dui eget hendrerit pretium, arcu nisi dapibus odio, eu ultricies leo ligula a sapien. Vivamus in tellus vitae enim facilisis ornare. Aliquam erat volutpat. Nulla imperdiet felis eu consectetur iaculis. Nulla semper leo nisl, vel interdum dolor egestas vitae. Cras vel odio ac massa hendrerit pharetra. Sed ultrices, tortor at tincidunt luctus, mi nibh iaculis sem, a finibus velit diam eget justo. Pellentesque a purus nibh.
+
+					Aenean malesuada finibus erat non rutrum. Phasellus consectetur metus id iaculis ullamcorper. Nulla turpis sem, rutrum id maximus sed, placerat vitae urna. Quisque molestie tellus sit amet ipsum volutpat tempus. Sed commodo nulla magna, nec dapibus tortor congue in. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec vel mauris sed neque condimentum posuere. Morbi faucibus, urna vel fermentum pretium, nisi felis tincidunt enim, ac sagittis libero urna vel massa. Aliquam fermentum lacinia mattis. Duis hendrerit lorem eu eleifend accumsan. Cras pellentesque sem at sodales mollis.
+
+					Donec malesuada ornare augue et consectetur. Cras finibus massa lacus, tincidunt volutpat enim ultrices quis. Pellentesque maximus porttitor leo et pulvinar. Nulla quis aliquet ex. Sed quis eleifend lorem, a bibendum ante. Etiam congue sit amet felis eu dapibus. Cras posuere orci arcu, ut eleifend diam fringilla ut. Mauris vestibulum enim quis diam faucibus, ac sodales purus ullamcorper. Sed ac arcu et urna maximus vestibulum. Fusce vitae pretium neque. <br>
+					End of Chicken Section <a href="#top">Back To Top</a>
+				</p>
+				<div class="bottom-line d-block d-sm-block d-md-none"></div>
+			</div>
+			<div class="content_box col-md-6 col-lg-4 col-sm-12 col-xs-12">
+				<div id="beef" class="box_head text-center">
+					<h2>Beef</h2>
+				</div>
+				<p class="box_content">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum, metus vel laoreet ullamcorper, urna ante malesuada ipsum, ut suscipit urna massa in leo. Sed quis mi bibendum, dapibus lacus at, feugiat urna. Mauris eget augue ut quam pharetra fermentum a at sem. Proin in neque imperdiet, condimentum turpis at, faucibus urna. Aliquam volutpat eleifend mollis. Praesent ac enim rhoncus, ultrices leo et, pellentesque nibh. Quisque orci ipsum, pretium quis diam sit amet, semper imperdiet metus. Ut vel massa vel enim elementum viverra. Cras interdum commodo accumsan.
+
+					Fusce suscipit viverra nisl. Vivamus vel tincidunt risus. In tincidunt, velit quis aliquet eleifend, massa neque tincidunt orci, eu tristique ex velit in odio. Praesent at ornare nunc. Pellentesque condimentum iaculis fringilla. Nullam varius mollis placerat. Ut elementum libero nulla, faucibus suscipit mauris vulputate tristique. Nullam sit amet pellentesque ex, id semper est. Etiam laoreet gravida pulvinar. Aliquam venenatis ipsum vel elementum posuere.
+
+					Praesent porttitor laoreet nunc sit amet aliquam. Nulla vehicula placerat lectus non ultrices. Maecenas dictum sed erat scelerisque vehicula. Praesent egestas sapien quam, ac venenatis justo ultrices sed. Nulla blandit pulvinar rutrum. Vivamus pulvinar orci mi, quis convallis leo ultricies nec. Quisque ligula neque, mattis ac sagittis sit amet, euismod sit amet dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. In velit turpis, tincidunt ut orci eget, vehicula aliquet eros. Donec euismod nunc eu lacus convallis dictum. Nam rutrum leo laoreet urna varius, a eleifend leo molestie. Nulla facilisi.
+
+					Donec sed augue sit amet erat gravida auctor nec pellentesque purus. Sed venenatis nulla sapien, et malesuada velit lacinia id. Vivamus quis est sed odio auctor dignissim. Sed quis enim libero. Suspendisse et ex luctus, blandit dolor nec, facilisis massa. Sed nec vulputate sapien. Nulla mollis enim turpis, vitae posuere tortor tincidunt ornare. Curabitur lobortis felis a magna pellentesque, ut tempor est vestibulum. Curabitur dapibus neque felis, eu scelerisque nunc tristique ac. Aenean eu tortor felis. Praesent laoreet condimentum ante, vitae egestas massa dignissim in. Duis rutrum elementum velit, quis facilisis neque sollicitudin a. Proin et quam sollicitudin justo lacinia sagittis.
+					 Morbi congue ullamcorper nibh vitae maximus. Nunc id tempus nibh. Integer luctus nisl vitae erat dignissim dignissim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas sodales, dui eget hendrerit pretium, arcu nisi dapibus odio, eu ultricies leo ligula a sapien. Vivamus in tellus vitae enim facilisis ornare. Aliquam erat volutpat. Nulla imperdiet felis eu consectetur iaculis. Nulla semper leo nisl, vel interdum dolor egestas vitae. Cras vel odio ac massa hendrerit pharetra. Sed ultrices, tortor at tincidunt luctus, mi nibh iaculis sem, a finibus velit diam eget justo. Pellentesque a purus nibh.
+
+					Aenean malesuada finibus erat non rutrum. Phasellus consectetur metus id iaculis ullamcorper. Nulla turpis sem, rutrum id maximus sed, placerat vitae urna. Quisque molestie tellus sit amet ipsum volutpat tempus. Sed commodo nulla magna, nec dapibus tortor congue in. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec vel mauris sed neque condimentum posuere. Morbi faucibus, urna vel fermentum pretium, nisi felis tincidunt enim, ac sagittis libero urna vel massa. Aliquam fermentum lacinia mattis. Duis hendrerit lorem eu eleifend accumsan. Cras pellentesque sem at sodales mollis.
+
+					Donec malesuada ornare augue et consectetur. Cras finibus massa lacus, tincidunt volutpat enim ultrices quis. Pellentesque maximus porttitor leo et pulvinar. Nulla quis aliquet ex. Sed quis eleifend lorem, a bibendum ante. Etiam congue sit amet felis eu dapibus. Cras posuere orci arcu, ut eleifend diam fringilla ut. Mauris vestibulum enim quis diam faucibus, ac sodales purus ullamcorper. Sed ac arcu et urna maximus vestibulum. Fusce vitae pretium neque. <br>
+					End of Beef Section <a href="#top">Back To Top</a>
+				</p>
+				<div class="bottom-line d-block d-sm-block d-md-none"></div>
+			</div>
+			<div class="content_box col-md-12 col-lg-4 col-sm-12 col-xs-12">
+				<div id="sushi" class="box_head text-center">
+					<h2>Sushi</h2>
+				</div>
+				<p class="box_content">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum, metus vel laoreet ullamcorper, urna ante malesuada ipsum, ut suscipit urna massa in leo. Sed quis mi bibendum, dapibus lacus at, feugiat urna. Mauris eget augue ut quam pharetra fermentum a at sem. Proin in neque imperdiet, condimentum turpis at, faucibus urna. Aliquam volutpat eleifend mollis. Praesent ac enim rhoncus, ultrices leo et, pellentesque nibh. Quisque orci ipsum, pretium quis diam sit amet, semper imperdiet metus. Ut vel massa vel enim elementum viverra. Cras interdum commodo accumsan.
+
+					Fusce suscipit viverra nisl. Vivamus vel tincidunt risus. In tincidunt, velit quis aliquet eleifend, massa neque tincidunt orci, eu tristique ex velit in odio. Praesent at ornare nunc. Pellentesque condimentum iaculis fringilla. Nullam varius mollis placerat. Ut elementum libero nulla, faucibus suscipit mauris vulputate tristique. Nullam sit amet pellentesque ex, id semper est. Etiam laoreet gravida pulvinar. Aliquam venenatis ipsum vel elementum posuere.
+
+					Praesent porttitor laoreet nunc sit amet aliquam. Nulla vehicula placerat lectus non ultrices. Maecenas dictum sed erat scelerisque vehicula. Praesent egestas sapien quam, ac venenatis justo ultrices sed. Nulla blandit pulvinar rutrum. Vivamus pulvinar orci mi, quis convallis leo ultricies nec. Quisque ligula neque, mattis ac sagittis sit amet, euismod sit amet dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. In velit turpis, tincidunt ut orci eget, vehicula aliquet eros. Donec euismod nunc eu lacus convallis dictum. Nam rutrum leo laoreet urna varius, a eleifend leo molestie. Nulla facilisi.
+					Donec sed augue sit amet erat gravida auctor nec pellentesque purus. Sed venenatis nulla sapien, et malesuada velit lacinia id. Vivamus quis est sed odio auctor dignissim. Sed quis enim libero. Suspendisse et ex luctus, blandit dolor nec, facilisis massa. Sed nec vulputate sapien. Nulla mollis enim turpis, vitae posuere tortor tincidunt ornare. Curabitur lobortis felis a magna pellentesque, ut tempor est vestibulum. Curabitur dapibus neque felis, eu scelerisque nunc tristique ac. Aenean eu tortor felis. Praesent laoreet condimentum ante, vitae egestas massa dignissim in. Duis rutrum elementum velit, quis facilisis neque sollicitudin a. Proin et quam sollicitudin justo lacinia sagittis.
+					 Morbi congue ullamcorper nibh vitae maximus. Nunc id tempus nibh. Integer luctus nisl vitae erat dignissim dignissim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas sodales, dui eget hendrerit pretium, arcu nisi dapibus odio, eu ultricies leo ligula a sapien. Vivamus in tellus vitae enim facilisis ornare. Aliquam erat volutpat. Nulla imperdiet felis eu consectetur iaculis. Nulla semper leo nisl, vel interdum dolor egestas vitae. Cras vel odio ac massa hendrerit pharetra. Sed ultrices, tortor at tincidunt luctus, mi nibh iaculis sem, a finibus velit diam eget justo. Pellentesque a purus nibh.
+
+					Aenean malesuada finibus erat non rutrum. Phasellus consectetur metus id iaculis ullamcorper. Nulla turpis sem, rutrum id maximus sed, placerat vitae urna. Quisque molestie tellus sit amet ipsum volutpat tempus. Sed commodo nulla magna, nec dapibus tortor congue in. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec vel mauris sed neque condimentum posuere. Morbi faucibus, urna vel fermentum pretium, nisi felis tincidunt enim, ac sagittis libero urna vel massa. Aliquam fermentum lacinia mattis. Duis hendrerit lorem eu eleifend accumsan. Cras pellentesque sem at sodales mollis.
+
+					Donec malesuada ornare augue et consectetur. Cras finibus massa lacus, tincidunt volutpat enim ultrices quis. Pellentesque maximus porttitor leo et pulvinar. Nulla quis aliquet ex. Sed quis eleifend lorem, a bibendum ante. Etiam congue sit amet felis eu dapibus. Cras posuere orci arcu, ut eleifend diam fringilla ut. Mauris vestibulum enim quis diam faucibus, ac sodales purus ullamcorper. Sed ac arcu et urna maximus vestibulum. Fusce vitae pretium neque. <br>
+					End of Sushi Section <a href="#top">Back To Top</a>
+				</p>
+				<div class="bottom-line d-block d-sm-block d-md-none"></div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
+
+</body>
+</html> 
+
+// NOTE! The steps in this file are basically identical to the ones you
+// performed in the SpeakHello.js file.
+
+// STEP 6: Wrap the entire contents of SpeakGoodBye.js inside of an IIFE
+// See Lecture 52, part 2
+
+
+// STEP 7: Create an object, called 'byeSpeaker' to which you will attach
+// the "speak" method and which you will expose to the global context
+// See Lecture 52, part 1
+// var byeSpeaker =
+
+// DO NOT attach the speakWord variable to the 'byeSpeaker' object.
+
+// STEP 8: Rewrite the 'speak' function such that it is attached to the
+// byeSpeaker object instead of being a standalone function.
+// See Lecture 52, part 2
+(function (window){
+	var byeSpeaker = {};
+	var speakWord = "Good Bye";
+	byeSpeaker.speak = function(name){
+		window.console.log(speakWord + " " + name);
+	}
+	window.byeSpeaker = byeSpeaker;
+})(window);
+
+// STEP 9: Expose the 'byeSpeaker' object to the global scope. Name it
+// 'byeSpeaker' on the global scope as well.
+// xxxx.xxxx = byeSpeaker;
+ 32  SpeakHello.js 
+@@ -0,0 +1,32 @@
+// STEP 2: Wrap the entire contents of SpeakHello.js inside of an IIFE
+// See Lecture 52, part 2
+
+
+// STEP 3: Create an object, called 'helloSpeaker' to which you will attach
+// the "speak" method and which you will expose to the global context
+// See Lecture 52, part 1
+// var helloSpeaker =
+
+// DO NOT attach the speakWord variable to the 'helloSpeaker' object.
+
+
+// STEP 4: Rewrite the 'speak' function such that it is attached to the
+// helloSpeaker object instead of being a standalone function.
+// See Lecture 52, part 2
+
+
+(function (window){
+	var speakWord = "Hello";
+	var helloSpeaker = {};
+	helloSpeaker.speak = function (name){
+		window.console.log(speakWord + " " + name);
+	}
+	window.helloSpeaker = helloSpeaker;
+})(window);
+
+
+// STEP 5: Expose the 'helloSpeaker' object to the global scope. Name it
+// 'helloSpeaker' on the global scope as well.
+// See Lecture 52, part 2
+// (Note, Step 6 will be done in the SpeakGoodBye.js file.)
+// xxxx.xxxx = helloSpeaker;
+ 1  _config.yml 
+This file was deleted.
+
+ 109  index.html 
+@@ -1,105 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Assignment Solution For Module 3</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/styles.css">
+  <meta charset="utf-8">
+  <title>Module 4 Solution Starter</title>
+  <script>
+    var names = []; // DO NOT REMOVE
+  </script>
+  <script src="SpeakHello.js"></script>
+  <script src="SpeakGoodBye.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+
+	<div id="top"></div>
+
+	<nav class="navbar">
+		<a class="navbar-brand font-weight-bold" href="index.html">FOOD, LLC</a>
+		<button class="navbar-toggler d-block d-sm-block d-md-none" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon">
+				<svg class="bi bi-list" width="1.5em" height="1.5em" viewBox="0 0 16 16" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg">
+					<path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 013 11h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5zm0-4A.5.5 0 013 7h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5zm0-4A.5.5 0 013 3h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5z" clip-rule="evenodd"/>
+				</svg>
+			</span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav .d-block .d-sm-block .d-md-none">
+				<a class="nav-item nav-link text-center" href="#chicken">Chicken</a>
+				<a class="nav-item nav-link text-center" href="#beef">Beef</a>
+				<a class="nav-item nav-link text-center" href="#sushi">Sushi</a>
+			</div>
+		</div>
+	</nav>
+
+	<h1 class="main_head text-center">Our Menu</h1>
+
+	<div id="main_container" class="container-fluid">
+		<div class="row">
+			<div class="content_box col-md-6 col-lg-4 col-sm-12 col-xs-12">
+				<div id="chicken" class="box_head text-center">
+					<h2>Chicken</h2>
+				</div>
+				<p class="box_content">
+					 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum, metus vel laoreet ullamcorper, urna ante malesuada ipsum, ut suscipit urna massa in leo. Sed quis mi bibendum, dapibus lacus at, feugiat urna. Mauris eget augue ut quam pharetra fermentum a at sem. Proin in neque imperdiet, condimentum turpis at, faucibus urna. Aliquam volutpat eleifend mollis. Praesent ac enim rhoncus, ultrices leo et, pellentesque nibh. Quisque orci ipsum, pretium quis diam sit amet, semper imperdiet metus. Ut vel massa vel enim elementum viverra. Cras interdum commodo accumsan.
+
+					Fusce suscipit viverra nisl. Vivamus vel tincidunt risus. In tincidunt, velit quis aliquet eleifend, massa neque tincidunt orci, eu tristique ex velit in odio. Praesent at ornare nunc. Pellentesque condimentum iaculis fringilla. Nullam varius mollis placerat. Ut elementum libero nulla, faucibus suscipit mauris vulputate tristique. Nullam sit amet pellentesque ex, id semper est. Etiam laoreet gravida pulvinar. Aliquam venenatis ipsum vel elementum posuere.
+
+					Praesent porttitor laoreet nunc sit amet aliquam. Nulla vehicula placerat lectus non ultrices. Maecenas dictum sed erat scelerisque vehicula. Praesent egestas sapien quam, ac venenatis justo ultrices sed. Nulla blandit pulvinar rutrum. Vivamus pulvinar orci mi, quis convallis leo ultricies nec. Quisque ligula neque, mattis ac sagittis sit amet, euismod sit amet dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. In velit turpis, tincidunt ut orci eget, vehicula aliquet eros. Donec euismod nunc eu lacus convallis dictum. Nam rutrum leo laoreet urna varius, a eleifend leo molestie. Nulla facilisi.
+
+					Donec sed augue sit amet erat gravida auctor nec pellentesque purus. Sed venenatis nulla sapien, et malesuada velit lacinia id. Vivamus quis est sed odio auctor dignissim. Sed quis enim libero. Suspendisse et ex luctus, blandit dolor nec, facilisis massa. Sed nec vulputate sapien. Nulla mollis enim turpis, vitae posuere tortor tincidunt ornare. Curabitur lobortis felis a magna pellentesque, ut tempor est vestibulum. Curabitur dapibus neque felis, eu scelerisque nunc tristique ac. Aenean eu tortor felis. Praesent laoreet condimentum ante, vitae egestas massa dignissim in. Duis rutrum elementum velit, quis facilisis neque sollicitudin a. Proin et quam sollicitudin justo lacinia sagittis.
+					 Morbi congue ullamcorper nibh vitae maximus. Nunc id tempus nibh. Integer luctus nisl vitae erat dignissim dignissim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas sodales, dui eget hendrerit pretium, arcu nisi dapibus odio, eu ultricies leo ligula a sapien. Vivamus in tellus vitae enim facilisis ornare. Aliquam erat volutpat. Nulla imperdiet felis eu consectetur iaculis. Nulla semper leo nisl, vel interdum dolor egestas vitae. Cras vel odio ac massa hendrerit pharetra. Sed ultrices, tortor at tincidunt luctus, mi nibh iaculis sem, a finibus velit diam eget justo. Pellentesque a purus nibh.
+
+					Aenean malesuada finibus erat non rutrum. Phasellus consectetur metus id iaculis ullamcorper. Nulla turpis sem, rutrum id maximus sed, placerat vitae urna. Quisque molestie tellus sit amet ipsum volutpat tempus. Sed commodo nulla magna, nec dapibus tortor congue in. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec vel mauris sed neque condimentum posuere. Morbi faucibus, urna vel fermentum pretium, nisi felis tincidunt enim, ac sagittis libero urna vel massa. Aliquam fermentum lacinia mattis. Duis hendrerit lorem eu eleifend accumsan. Cras pellentesque sem at sodales mollis.
+
+					Donec malesuada ornare augue et consectetur. Cras finibus massa lacus, tincidunt volutpat enim ultrices quis. Pellentesque maximus porttitor leo et pulvinar. Nulla quis aliquet ex. Sed quis eleifend lorem, a bibendum ante. Etiam congue sit amet felis eu dapibus. Cras posuere orci arcu, ut eleifend diam fringilla ut. Mauris vestibulum enim quis diam faucibus, ac sodales purus ullamcorper. Sed ac arcu et urna maximus vestibulum. Fusce vitae pretium neque. <br>
+					End of Chicken Section <a href="#top">Back To Top</a>
+				</p>
+				<div class="bottom-line d-block d-sm-block d-md-none"></div>
+			</div>
+			<div class="content_box col-md-6 col-lg-4 col-sm-12 col-xs-12">
+				<div id="beef" class="box_head text-center">
+					<h2>Beef</h2>
+				</div>
+				<p class="box_content">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum, metus vel laoreet ullamcorper, urna ante malesuada ipsum, ut suscipit urna massa in leo. Sed quis mi bibendum, dapibus lacus at, feugiat urna. Mauris eget augue ut quam pharetra fermentum a at sem. Proin in neque imperdiet, condimentum turpis at, faucibus urna. Aliquam volutpat eleifend mollis. Praesent ac enim rhoncus, ultrices leo et, pellentesque nibh. Quisque orci ipsum, pretium quis diam sit amet, semper imperdiet metus. Ut vel massa vel enim elementum viverra. Cras interdum commodo accumsan.
+
+					Fusce suscipit viverra nisl. Vivamus vel tincidunt risus. In tincidunt, velit quis aliquet eleifend, massa neque tincidunt orci, eu tristique ex velit in odio. Praesent at ornare nunc. Pellentesque condimentum iaculis fringilla. Nullam varius mollis placerat. Ut elementum libero nulla, faucibus suscipit mauris vulputate tristique. Nullam sit amet pellentesque ex, id semper est. Etiam laoreet gravida pulvinar. Aliquam venenatis ipsum vel elementum posuere.
+
+					Praesent porttitor laoreet nunc sit amet aliquam. Nulla vehicula placerat lectus non ultrices. Maecenas dictum sed erat scelerisque vehicula. Praesent egestas sapien quam, ac venenatis justo ultrices sed. Nulla blandit pulvinar rutrum. Vivamus pulvinar orci mi, quis convallis leo ultricies nec. Quisque ligula neque, mattis ac sagittis sit amet, euismod sit amet dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. In velit turpis, tincidunt ut orci eget, vehicula aliquet eros. Donec euismod nunc eu lacus convallis dictum. Nam rutrum leo laoreet urna varius, a eleifend leo molestie. Nulla facilisi.
+
+					Donec sed augue sit amet erat gravida auctor nec pellentesque purus. Sed venenatis nulla sapien, et malesuada velit lacinia id. Vivamus quis est sed odio auctor dignissim. Sed quis enim libero. Suspendisse et ex luctus, blandit dolor nec, facilisis massa. Sed nec vulputate sapien. Nulla mollis enim turpis, vitae posuere tortor tincidunt ornare. Curabitur lobortis felis a magna pellentesque, ut tempor est vestibulum. Curabitur dapibus neque felis, eu scelerisque nunc tristique ac. Aenean eu tortor felis. Praesent laoreet condimentum ante, vitae egestas massa dignissim in. Duis rutrum elementum velit, quis facilisis neque sollicitudin a. Proin et quam sollicitudin justo lacinia sagittis.
+					 Morbi congue ullamcorper nibh vitae maximus. Nunc id tempus nibh. Integer luctus nisl vitae erat dignissim dignissim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas sodales, dui eget hendrerit pretium, arcu nisi dapibus odio, eu ultricies leo ligula a sapien. Vivamus in tellus vitae enim facilisis ornare. Aliquam erat volutpat. Nulla imperdiet felis eu consectetur iaculis. Nulla semper leo nisl, vel interdum dolor egestas vitae. Cras vel odio ac massa hendrerit pharetra. Sed ultrices, tortor at tincidunt luctus, mi nibh iaculis sem, a finibus velit diam eget justo. Pellentesque a purus nibh.
+
+					Aenean malesuada finibus erat non rutrum. Phasellus consectetur metus id iaculis ullamcorper. Nulla turpis sem, rutrum id maximus sed, placerat vitae urna. Quisque molestie tellus sit amet ipsum volutpat tempus. Sed commodo nulla magna, nec dapibus tortor congue in. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec vel mauris sed neque condimentum posuere. Morbi faucibus, urna vel fermentum pretium, nisi felis tincidunt enim, ac sagittis libero urna vel massa. Aliquam fermentum lacinia mattis. Duis hendrerit lorem eu eleifend accumsan. Cras pellentesque sem at sodales mollis.
+
+					Donec malesuada ornare augue et consectetur. Cras finibus massa lacus, tincidunt volutpat enim ultrices quis. Pellentesque maximus porttitor leo et pulvinar. Nulla quis aliquet ex. Sed quis eleifend lorem, a bibendum ante. Etiam congue sit amet felis eu dapibus. Cras posuere orci arcu, ut eleifend diam fringilla ut. Mauris vestibulum enim quis diam faucibus, ac sodales purus ullamcorper. Sed ac arcu et urna maximus vestibulum. Fusce vitae pretium neque. <br>
+					End of Beef Section <a href="#top">Back To Top</a>
+				</p>
+				<div class="bottom-line d-block d-sm-block d-md-none"></div>
+			</div>
+			<div class="content_box col-md-12 col-lg-4 col-sm-12 col-xs-12">
+				<div id="sushi" class="box_head text-center">
+					<h2>Sushi</h2>
+				</div>
+				<p class="box_content">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum, metus vel laoreet ullamcorper, urna ante malesuada ipsum, ut suscipit urna massa in leo. Sed quis mi bibendum, dapibus lacus at, feugiat urna. Mauris eget augue ut quam pharetra fermentum a at sem. Proin in neque imperdiet, condimentum turpis at, faucibus urna. Aliquam volutpat eleifend mollis. Praesent ac enim rhoncus, ultrices leo et, pellentesque nibh. Quisque orci ipsum, pretium quis diam sit amet, semper imperdiet metus. Ut vel massa vel enim elementum viverra. Cras interdum commodo accumsan.
+
+					Fusce suscipit viverra nisl. Vivamus vel tincidunt risus. In tincidunt, velit quis aliquet eleifend, massa neque tincidunt orci, eu tristique ex velit in odio. Praesent at ornare nunc. Pellentesque condimentum iaculis fringilla. Nullam varius mollis placerat. Ut elementum libero nulla, faucibus suscipit mauris vulputate tristique. Nullam sit amet pellentesque ex, id semper est. Etiam laoreet gravida pulvinar. Aliquam venenatis ipsum vel elementum posuere.
+
+					Praesent porttitor laoreet nunc sit amet aliquam. Nulla vehicula placerat lectus non ultrices. Maecenas dictum sed erat scelerisque vehicula. Praesent egestas sapien quam, ac venenatis justo ultrices sed. Nulla blandit pulvinar rutrum. Vivamus pulvinar orci mi, quis convallis leo ultricies nec. Quisque ligula neque, mattis ac sagittis sit amet, euismod sit amet dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. In velit turpis, tincidunt ut orci eget, vehicula aliquet eros. Donec euismod nunc eu lacus convallis dictum. Nam rutrum leo laoreet urna varius, a eleifend leo molestie. Nulla facilisi.
+					Donec sed augue sit amet erat gravida auctor nec pellentesque purus. Sed venenatis nulla sapien, et malesuada velit lacinia id. Vivamus quis est sed odio auctor dignissim. Sed quis enim libero. Suspendisse et ex luctus, blandit dolor nec, facilisis massa. Sed nec vulputate sapien. Nulla mollis enim turpis, vitae posuere tortor tincidunt ornare. Curabitur lobortis felis a magna pellentesque, ut tempor est vestibulum. Curabitur dapibus neque felis, eu scelerisque nunc tristique ac. Aenean eu tortor felis. Praesent laoreet condimentum ante, vitae egestas massa dignissim in. Duis rutrum elementum velit, quis facilisis neque sollicitudin a. Proin et quam sollicitudin justo lacinia sagittis.
+					 Morbi congue ullamcorper nibh vitae maximus. Nunc id tempus nibh. Integer luctus nisl vitae erat dignissim dignissim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas sodales, dui eget hendrerit pretium, arcu nisi dapibus odio, eu ultricies leo ligula a sapien. Vivamus in tellus vitae enim facilisis ornare. Aliquam erat volutpat. Nulla imperdiet felis eu consectetur iaculis. Nulla semper leo nisl, vel interdum dolor egestas vitae. Cras vel odio ac massa hendrerit pharetra. Sed ultrices, tortor at tincidunt luctus, mi nibh iaculis sem, a finibus velit diam eget justo. Pellentesque a purus nibh.
+
+					Aenean malesuada finibus erat non rutrum. Phasellus consectetur metus id iaculis ullamcorper. Nulla turpis sem, rutrum id maximus sed, placerat vitae urna. Quisque molestie tellus sit amet ipsum volutpat tempus. Sed commodo nulla magna, nec dapibus tortor congue in. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec vel mauris sed neque condimentum posuere. Morbi faucibus, urna vel fermentum pretium, nisi felis tincidunt enim, ac sagittis libero urna vel massa. Aliquam fermentum lacinia mattis. Duis hendrerit lorem eu eleifend accumsan. Cras pellentesque sem at sodales mollis.
+
+					Donec malesuada ornare augue et consectetur. Cras finibus massa lacus, tincidunt volutpat enim ultrices quis. Pellentesque maximus porttitor leo et pulvinar. Nulla quis aliquet ex. Sed quis eleifend lorem, a bibendum ante. Etiam congue sit amet felis eu dapibus. Cras posuere orci arcu, ut eleifend diam fringilla ut. Mauris vestibulum enim quis diam faucibus, ac sodales purus ullamcorper. Sed ac arcu et urna maximus vestibulum. Fusce vitae pretium neque. <br>
+					End of Sushi Section <a href="#top">Back To Top</a>
+				</p>
+				<div class="bottom-line d-block d-sm-block d-md-none"></div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
+
+  <h1>Module 4 Solution Starter</h1>
+</body>
+</html> 
+</html>
+ 76  script.js 
+@@ -0,0 +1,76 @@
+// *******************************
+// START HERE IF YOU WANT A MORE CHALLENGING STARTING POINT FOR THIS ASSIGNMENT
+// *******************************
+//
+// Module 4 Assignment Instructions.
+//
+// The idea of this assignment is to take an existing array of names
+// and then output either Hello 'Name' or Good Bye 'Name' to the console.
+// The program should say "Hello" to any name except names that start with a "J"
+// or "j", otherwise, the program should say "Good Bye". So, the final output
+// on the console should look like this:
+/*
+Hello Yaakov
+Good Bye John
+Good Bye Jen
+Good Bye Jason
+Hello Paul
+Hello Frank
+Hello Larry
+Hello Paula
+Hello Laura
+Good Bye Jim
+WARNING!!! WARNING!!!
+The code does NOT currently work! It is YOUR job to make it work
+as described in the requirements and the steps in order to complete this
+assignment.
+WARNING!!! WARNING!!!
+*/
+
+// STEP 1:
+// Wrap the entire contents of script.js inside of an IIFE
+// See Lecture 52, part 2
+// (Note, Step 2 will be done in the SpeakHello.js file.)
+
+
+
+var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+// STEP 10:
+// Loop over the names array and say either 'Hello' or "Good Bye"
+// using the 'speak' method or either helloSpeaker's or byeSpeaker's
+// 'speak' method.
+
+// See Lecture 50, part 1
+//for (/* fill in parts of the 'for' loop to loop over names array */) {
+//
+//  // STEP 11:
+//  // Retrieve the first letter of the current name in the loop.
+//  // Use the string object's 'charAt' function. Since we are looking for
+//  // names that start with either upper case or lower case 'J'/'j', call
+//  // string object's 'toLowerCase' method on the result so we can compare
+//  // to lower case character 'j' afterwards.
+//  // Look up these methods on Mozilla Developer Network web site if needed.
+//  // var firstLetter =
+//
+//  // STEP 12:
+//  // Compare the 'firstLetter' retrieved in STEP 11 to lower case
+//  // 'j'. If the same, call byeSpeaker's 'speak' method with the current name
+//  // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
+//  // name in the loop.
+//  if (/* fill in condition here */) {
+//    // byeSpeaker.xxxx
+//  } else {
+//    // helloSpeaker.xxxx
+//  }
+//}
+for(var i=0; i<names.length; i++){
+	var first=names[i].charAt(0).toLowerCase();
+	if(first == 'j'){
+		window.byeSpeaker.speak(names[i]);
+	}
+	else{
+		window.helloSpeaker.speak(names[i]);
+	}
+}
