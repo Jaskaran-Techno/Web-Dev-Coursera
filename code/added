@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Assignment Solution For Module 2</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<h1 class="main_head">Our Menu</h1>
+
+	<div class="main_container">
+		<div class="content_box">
+			<div class="box_head">
+				<h2>Chicken</h2>
+			</div>
+			<p class="box_content">
+				It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
+			</p>
+		</div>
+		<div class="content_box">
+			<div class="box_head">
+				<h2>Beef</h2>
+			</div>
+			<p class="box_content">
+				It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
+
+			</p>
+		</div>
+		<div class="content_box">
+			<div class="box_head">
+				<h2>Sushi</h2>
+			</div>
+			<p class="box_content">
+				It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+			</p>
+		</div>
+	</div>
+
+</body>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Assignment Solution For Module 2</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<h1 class="main_head">Our Menu</h1>
+
+	<div class="main_container">
+		<div class="content_box">
+			<div class="box_head">
+				<h2>Chicken</h2>
+			</div>
+			<p class="box_content">
+				It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
+			</p>
+		</div>
+		<div class="content_box">
+			<div class="box_head">
+				<h2>Beef</h2>
+			</div>
+			<p class="box_content">
+				It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
+
+			</p>
+		</div>
+		<div class="content_box">
+			<div class="box_head">
+				<h2>Sushi</h2>
+			</div>
+			<p class="box_content">
+				It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+			</p>
+		</div>
+	</div>
+
+</body>
+</html> 
